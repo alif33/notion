@@ -1,6 +1,5 @@
 import { useState} from "react";
-import { Link } from "react-router-dom";
-import { BiMenu, BiX } from "react-icons/bi";
+import { BiMenu } from "react-icons/bi";
 
 export default function Header() {
 

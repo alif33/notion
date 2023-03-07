@@ -1,134 +1,170 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 ul {
-    margin: 0;
-    padding: 0 !important;
-    list-style: none;
+  margin: 0;
+  padding: 0 !important;
+  list-style: none;
 }
 
-ul li a{
-    display: block;
-    text-decoration: none;
+ul li a {
+  display: block;
+  text-decoration: none;
 }
 
 input:focus {
-    outline: none;
-  }
-  
+  outline: none;
+}
 
 input[type="datetime-local"] {
-    appearance: none;
-    border: none;
-    outline: none;
-    background-color: transparent;
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
 .time-container {
-    position: relative;
+  position: relative;
 }
 .time-container h6 {
-    background-color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .pl-0 {
-    padding-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 .header {
-    padding: 0px 20px 0px 20px;
-    border-bottom: 1px solid #afaaaa;
+  padding: 0px 20px 0px 20px;
+  border-bottom: 1px solid #afaaaa;
 }
 
 .menu-icon {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .titles .brand {
-    padding-left: 45px;
+  padding-left: 45px;
 }
 
 .bcontainer {
-
 }
 
 .sidebar {
-    border-right: 1px solid #afaaaa;
-    padding-right: 0px !important;
+  border-right: 1px solid #afaaaa;
+  padding-right: 0px !important;
 }
 
 .btn-plus {
-    border-bottom: 1px solid #afaaaa;
+  border-bottom: 1px solid #afaaaa;
 }
 
 .btn-plus-text {
-    font-size: 25px;
-    font-weight: 600;
-    padding-left: 12px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 12px;
 }
 
 .btn-plus-icon {
-    padding: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 .no-notes {
-    font-size: 20px;
-    padding: 25px 5px 5px 5px;
+  font-size: 20px;
+  padding: 25px 5px 5px 5px;
 }
 
 .container-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
 }
-.container-center h3 { 
-    margin: 0;
-    color: #afaaaa;
+.container-center h3 {
+  margin: 0;
+  color: #afaaaa;
 }
 
 .top-bar {
-    height: 70px;
-    margin-left: 0px !important;
-    border-bottom: 1px solid #afaaaa;
+  height: 70px;
+  margin-left: 0px !important;
+  border-bottom: 1px solid #afaaaa;
 }
 
-.top-bar h3{
-    margin: 0 !important;
-    padding-top: 8px;
+.top-bar h3 {
+  margin: 0 !important;
+  padding-top: 8px;
 }
 
 .view-title {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.top-bar h6{
-    margin: 0 !important;
-    font-size: 12px;
-    padding-top: 10px;
-    padding-right: 50px;
+.top-bar h6 {
+  margin: 0 !important;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 50px;
 }
 
 .btn-action {
-    padding: 23px 15px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
+  padding: 23px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .editor-body {
-    margin: 0; 
-    height: 75vh;  
+  margin: 0;
+  height: 75vh;
 }
 
-
 .input-title {
-    border: none;
-    width: 400px;
+  border: none;
+  width: 400px;
 }
 
 .ql-container.ql-snow {
-    border: none !important;
+  border: none !important;
+}
+
+.active-class {
+  background-color: rgb(63, 62, 62);
+  cursor: pointer;
+  color: white;
+}
+.active-class a {
+  display: block;
+  color: white;
+}
+
+.link-class {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+/* .link-class a {
+  display: block;
+  color: white;
+} */
+
+.btn-plus-icon:hover {
+  background-color: rgb(63, 62, 62);
+  cursor: pointer;
+  color: white;
+}
+
+.btn-action:hover {
+  background-color: rgb(63, 62, 62);
+  cursor: pointer;
+  color: white;
+}
+
+.btn-action a:hover {
+  text-decoration: none;
+  background-color: rgb(63, 62, 62);
+  cursor: pointer;
+  color: white;
 }
